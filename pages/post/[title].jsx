@@ -36,7 +36,10 @@ const PostDetails = () => {
               </small>
               <div className="mt-8 flex gap-2">
                 {post.tags.map((tag) => (
-                  <span className="text-white text-xs bg-gray-700 border-color-navy border-2 px-3 py-1 font-medium ">
+                  <span
+                    key={tag}
+                    className="text-white text-xs bg-gray-700 border-color-navy border-2 px-3 py-1 font-medium "
+                  >
                     {tag}
                   </span>
                 ))}

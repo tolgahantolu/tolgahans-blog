@@ -48,7 +48,7 @@ const Aside = () => {
             className="border-b-[1px] border-gray-200"
             onClick={() => setShowAside(false)}
           >
-            <Link href="/">
+            <Link href="/tag/html-css">
               <a className="capitalize font-semibold leading-[40px] flex items-center gap-x-3 transition-all hover:translate-x-1 hover:text-color-pink">
                 <SiHtml5 size={15} />
                 html/css
@@ -59,7 +59,7 @@ const Aside = () => {
             className="border-b-[1px] border-gray-200"
             onClick={() => setShowAside(false)}
           >
-            <Link href="/">
+            <Link href="/tag/javascript">
               <a className="capitalize font-semibold leading-[40px] flex items-center gap-x-3 transition-all hover:translate-x-1 hover:text-color-pink">
                 <SiJavascript size={15} />
                 javascript
@@ -70,7 +70,7 @@ const Aside = () => {
             className="border-b-[1px] border-gray-200"
             onClick={() => setShowAside(false)}
           >
-            <Link href="/">
+            <Link href="/tag/typescript">
               <a className="capitalize font-semibold leading-[40px] flex items-center gap-x-3 transition-all hover:translate-x-1 hover:text-color-pink">
                 <SiTypescript size={15} />
                 typescript
@@ -82,7 +82,7 @@ const Aside = () => {
             className="border-b-[1px] border-gray-200"
             onClick={() => setShowAside(false)}
           >
-            <Link href="/">
+            <Link href="/tag/nextjs">
               <a className="capitalize font-semibold leading-[40px] flex items-center gap-x-3 transition-all hover:translate-x-1 hover:text-color-pink">
                 <SiNextdotjs size={15} />
                 nextJS
@@ -93,7 +93,7 @@ const Aside = () => {
             className="border-b-[1px] border-gray-200"
             onClick={() => setShowAside(false)}
           >
-            <Link href="/">
+            <Link href="/tag/reactjs">
               <a className="capitalize font-semibold leading-[40px] flex items-center gap-x-3 transition-all hover:translate-x-1 hover:text-color-pink">
                 <SiReact size={15} />
                 reactJS
@@ -104,7 +104,7 @@ const Aside = () => {
             className="border-b-[1px] border-gray-200"
             onClick={() => setShowAside(false)}
           >
-            <Link href="/">
+            <Link href="/tag/redux">
               <a className="capitalize font-semibold leading-[40px] flex items-center gap-x-3 transition-all hover:translate-x-1 hover:text-color-pink">
                 <SiRedux size={15} />
                 redux

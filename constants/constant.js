@@ -15,10 +15,10 @@ export const posts_data = [
   },
   {
     id: 3,
-    title: "A guide to React 18 hooks",
+    title: "A guide to React 18 hooks & CSS Styling",
     desc: "A guide to React 18 hooks Proin ullamcorper varius vulputate. Duis imperdiet egestas dui, vitae congue elit lobortis nec. Nullam sit amet libero euismod, blandit velit quis, imperdiet felis. Aliquam eu ligula nunc. Sed vel pharetra nulla. Sed et turpis a magna dictum malesuada nec eget ante. Aenean vel pharetra elit. Fusce et libero magna. Ut rhoncus mi vel ipsum maximus, a vulputate purus condimentum. Etiam eget est et diam mollis imperdiet eget vitae urna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vestibulum massa ligula, posuere sit amet arcu ac, bibendum vulputate arcu. Pellentesque interdum vestibulum diam, quis tempus mauris congue sed. Duis a placerat justo. <br /> <br /> Cras tempor enim ac erat sodales, a efficitur lorem facilisis. In finibus nisi vel turpis viverra ornare. Pellentesque faucibus leo et massa condimentum consectetur. Maecenas odio velit, ultricies et sapien ac, finibus convallis nibh. Duis vestibulum vehicula tristique. Aliquam erat volutpat.",
     date: "October 11, 2022",
-    tags: ["reactjs"],
+    tags: ["reactjs", "html-css"],
   },
   {
     id: 4,
