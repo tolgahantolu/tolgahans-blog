@@ -2,6 +2,7 @@ import React from "react";
 import { useRouter } from "next/router";
 import { posts_data } from "../../constants/constant";
 import Link from "next/link";
+import Head from "next/head";
 
 const Tag = () => {
   const router = useRouter();
@@ -29,7 +30,11 @@ const Tag = () => {
   console.log(existingPosts);
 
   return (
-    <div>
+    <>
+      <Head>
+        <title>Tolgahan's Blog | {tag}</title>
+      </Head>
+
       <h1 className="block text-center text-4xl underline font-bold uppercase mb-8">
         {tag}
       </h1>
@@ -54,7 +59,7 @@ const Tag = () => {
           </div>
         ))}
       </div>
-    </div>
+    </>
   );
 };
 

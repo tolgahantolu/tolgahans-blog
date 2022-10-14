@@ -1,9 +1,13 @@
+import Head from "next/head";
 import Link from "next/link";
 import { posts_data } from "../constants/constant";
 
 export default function Home() {
   return (
     <>
+      <Head>
+        <title>Tolgahan's Blog</title>
+      </Head>
       {/*<div className="w-4/5 h-full mx-auto">
         <div className="py-20">*/}
       <div className="pb-2">

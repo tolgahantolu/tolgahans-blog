@@ -1,6 +1,7 @@
 import React from "react";
 import { useRouter } from "next/router";
 import { posts_data } from "../../constants/constant";
+import Head from "next/head";
 
 const PostDetails = () => {
   const router = useRouter();
@@ -20,6 +21,9 @@ const PostDetails = () => {
 
   return (
     <>
+      <Head>
+        <title>Tolgahan's Blog | {title}</title>
+      </Head>
       <div>
         <div className="pb-2">
           {existingPost.map((post) => (
