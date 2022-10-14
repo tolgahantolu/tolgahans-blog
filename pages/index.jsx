@@ -4,6 +4,8 @@ import { posts_data } from "../constants/constant";
 export default function Home() {
   return (
     <>
+      {/*<div className="w-4/5 h-full mx-auto">
+        <div className="py-20">*/}
       <div className="pb-2">
         {posts_data.map((post) => (
           <div className="mb-16" key={post.id}>
